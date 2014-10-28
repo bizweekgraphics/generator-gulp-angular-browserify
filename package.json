@@ -1,0 +1,17 @@
+{
+  "name": "generator-bw-angular-gulp-browserify",
+  "version": "0.1.0",
+  "description": "BW generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "bizweekgraphics",
+  "license": "ISC",
+  "dependencies": {
+    "yeoman-generator": "^0.17.7"
+  }
+}
