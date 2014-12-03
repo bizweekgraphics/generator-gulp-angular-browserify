@@ -1,8 +1,29 @@
+'use strict';
+
 var generators = require('yeoman-generator');
+var copy = require('./src/copy.js');
 
 module.exports = generators.Base.extend({
-  method1: function() {
-    this.src.copy('_test.html', 'test.html');
-    this.log('method 1 just ran');
+  promptName: function() {
+    var done = this.async();
+
+    var prompts = [
+      {
+        type: 'input',
+        name: 'app',
+        message: 'What is the Angular app name?',
+        default: this.appname
+      }
+    ]
+
+    this.prompt(prompts, function(answers) {
+      this.appName = answers.app
+
+      done();
+    }.bind(this));
+  },
+
+  copySrc: function() {
+    copy.templates(this);
   }
 });

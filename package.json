@@ -12,6 +12,8 @@
   "author": "bizweekgraphics",
   "license": "ISC",
   "dependencies": {
+    "mem-fs": "^1.0.0",
+    "mem-fs-editor": "^1.0.0",
     "yeoman-generator": "^0.17.7"
   }
 }
