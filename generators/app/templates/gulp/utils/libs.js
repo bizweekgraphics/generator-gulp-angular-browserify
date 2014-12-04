@@ -1,6 +1,5 @@
 var libs = [
-  'angular',
-  'jquery',
+  'angular', 
   'angular-ui-router',
 ]
 

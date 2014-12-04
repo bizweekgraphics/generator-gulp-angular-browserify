@@ -1,10 +1,14 @@
 var gulp = require('./gulp')([
-  'webserver',
+  'browser-sync',
   'html',
   'watch',
   'browserify',
   'vendor',
-  'sass'
+  'sass',
+  'jshint',
+  'nghtml2js',
+  'replace',
+  'fonts'
 ])
 
-gulp.task('default', ['vendor', 'browserify', 'webserver', 'watch']);
+gulp.task('default', ['html', 'nghtml2js', 'sass', 'jshint', 'vendor', 'browserify', 'browser-sync', 'watch']);

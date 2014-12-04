@@ -1,10 +1,6 @@
-//Vendor
-@import 'vendor/bourbon/bourbon';
-
+//Base
 @import 'fonts';
 @import 'layout';
-@import '../routes/home/base';
 
-//Components
-@import '../components/header-nav/header-nav';
-@import '../components/panel/panel';
+//Routes
+@import '../scripts/routes/home/base';

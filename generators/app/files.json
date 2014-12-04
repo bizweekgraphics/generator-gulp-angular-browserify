@@ -1,5 +1,34 @@
 {
+  "staticFiles": [
+    ".gitignore",
+    "gulpfile.js",
+    "gulp/index.js",
+    "gulp/utils/libs.js",
+    "gulp/tasks/browser-sync.js",
+    "gulp/tasks/browserify.js",
+    "gulp/tasks/fonts.js",
+    "gulp/tasks/html.js",
+    "gulp/tasks/sass.js",
+    "gulp/tasks/vendor.js",
+    "gulp/tasks/watch.js",
+    "gulp/tasks/replace.js",
+    "gulp/tasks/nghtml2js.js",
+    "gulp/tasks/jshint.js",
+    "src/styles/main.scss",
+    "src/styles/_layout.scss",
+    "src/styles/_fonts.scss",
+    "src/scripts/routes/home/home.template.html",
+    "src/scripts/routes/home/_base.scss"
+  ],
+
   "templates": [
-    "src/index.html"
+    "package.json",
+    "src/index.html",
+    "src/scripts/app.js",
+    "src/scripts/components/index.js",
+    "src/scripts/routes/index.js",
+    "src/scripts/routes/home/home.controller.js",
+    "src/scripts/helpers/index.js",
+    "src/scripts/services/index.js"
   ]
 }

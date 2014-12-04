@@ -24,6 +24,12 @@ module.exports = generators.Base.extend({
   },
 
   copySrc: function() {
+    copy.staticFiles(this);
     copy.templates(this);
+  },
+
+  install: function() {
+    this.npmInstall();
   }
+  
 });
